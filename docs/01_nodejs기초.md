@@ -57,7 +57,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-app.listen(port, () ={
+app.listen(port, () => {
     console.log(`서버 실행중: http://localhost:{port}`);
 });
 
@@ -79,7 +79,7 @@ npm install express
 ```
 npm server.js
 ```
- - 위 명령어를 터미널에서 실행 후 http://localhost:8080 접속
+ - 위 명령어를 터미널에서 실행 후 http://localhost:3000 접속
  - 서버를 종료할 때는 터미널에서 Ctrl+C를 눌러 종료한다.
  - 서버 코드가 수정되면 서버를 종료 후 재시작 하여야 수정 사항이 반영된다.
  - 종료-재시작이 귀찮다면 [nodemon 모듈](https://www.npmjs.com/package/nodemon)을 활용할 수 있다.
