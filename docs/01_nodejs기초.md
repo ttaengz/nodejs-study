@@ -58,7 +58,7 @@ const app = express();
 const port = 3000;
 
 app.listen(port, () => {
-    console.log(`서버 실행중: http://localhost:{port}`);
+    console.log(`서버 실행중: http://localhost:${port}`);
 });
 
 app.get('/', (req, res) => {
@@ -69,7 +69,7 @@ app.get('/', (req, res) => {
  - 다음 명령을 터미널에 입력하여 node.js 프로젝트를 생성하고 express를 설치한다.
 
 ```bash
-mpn init -y
+npm init -y
 npm install express
 # 또는 npm i express
 ```
