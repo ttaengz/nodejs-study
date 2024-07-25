@@ -77,7 +77,7 @@ npm install express
 ### 서버 실행
 
 ```
-npm server.js
+node server.js
 ```
  - 위 명령어를 터미널에서 실행 후 http://localhost:3000 접속
  - 서버를 종료할 때는 터미널에서 Ctrl+C를 눌러 종료한다.
@@ -99,7 +99,7 @@ nodemon server.js
  - `nodemon: 이 시스템에서 스크립트를 실행할 수 없으므로...` 에러 조치
 
 ```bash
-# 관리자 권한으로 PoserShell실행 후 다음 명령어 입력
+# 관리자 권한으로 PoserShell실행 후 다음 명령어 입력 후 Y입력 엔터
 Set-ExecutionPolicy RemoteSigned
 
 # 확인
